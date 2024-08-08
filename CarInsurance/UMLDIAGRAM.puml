@@ -1,0 +1,24 @@
+@startuml
+class Car
+class HelpWindow
+class InsuranceContract
+class Insuree
+class JFrame
+class Main
+class MainFrame
+class database
+class java.awt.event.ActionEvent
+class java.util.Calendar
+class java.util.HashMap
+class java.util.Map
+class java.util.function.Function
+class javax.swing.SwingUtilities
+HelpWindow --|> JFrame
+InsuranceContract ..> java.util.Calendar
+InsuranceContract ..> java.util.HashMap
+InsuranceContract ..> java.util.Map
+InsuranceContract ..> java.util.function.Function
+Main ..> javax.swing.SwingUtilities
+MainFrame --|> JFrame
+MainFrame ..> java.awt.event.ActionEvent
+@enduml
